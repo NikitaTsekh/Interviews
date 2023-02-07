@@ -7,3 +7,6 @@ Some_tasks_from_interview
 2.Resorting string sequence by sum of digits. Middle DS
 
 3.MAx sum of sequence. Middle DS
+
+
+4.Multiclass classification Middle DS
