@@ -10,3 +10,6 @@ Some_tasks_from_interview
 
 
 4.Multiclass classification Middle DS
+
+
+5.SQL Vintaze solution - solution to 'task_bank.docx'
