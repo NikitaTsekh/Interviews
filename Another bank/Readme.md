@@ -1,1 +1,3 @@
-This is test task for junior postition in one bank
+
+1.Task bank.docx - формулировка задания, внутри исходные данные.
+2.solution - решение в виде sql запроса
