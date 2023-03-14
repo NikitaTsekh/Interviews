@@ -27,3 +27,37 @@ def resort_str_by_digint_sum(input):
     return numbers_string
 
 print(resort_str_by_digint_sum(input))
+
+#---------------------------------------------------------------
+#using numpy 
+
+import numpy as np
+
+input = '56 78 84 89 91 99 108'
+
+
+
+def resort_str_by_digint_sum(input:str) -> str:
+    '''
+    Sorts str sequence input by sum of digits
+    :param input: 
+    :return: str
+    '''
+
+    list_initial = []
+    list_ = []
+    for i in input.split(' '):
+        sum = 0
+        list_initial.append(int(i))
+        for j in i:
+            sum += int(j)
+        list_.append(sum)
+
+    result=[str(list_initial[i]) for i in np.argsort(list_)]
+
+
+    return (' '.join(result))
+
+print(resort_str_by_digint_sum(input))
+
+#output 108 91 56 84 78 89 99
